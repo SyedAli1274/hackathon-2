@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv add:*)",
+      "Bash(uv python pin:*)",
+      "Bash(pytest:*)",
+      "Bash(mypy:*)",
+      "Bash(python -m pip:*)",
+      "Bash(findstr:*)",
+      "Bash(uv pip install:*)",
+      "Bash(uv sync:*)",
+      "Bash(ruff check:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
